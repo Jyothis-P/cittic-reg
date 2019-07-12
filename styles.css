@@ -1,0 +1,77 @@
+.main-text {
+  text-align: center;
+  margin-top: auto;
+}
+
+body {
+  background: #1aa8e1;
+  color: white;
+  font-weight: unset;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.block {
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.answer:focus {
+  outline: 0;
+}
+
+.block:focus-within {
+  opacity: 1;
+}
+
+.answerdiv {
+  padding: 20px;
+}
+
+.answer {
+  background-color: transparent;
+  border-width: thin;
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.m-5 {
+  margin: 3rem !important;
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
